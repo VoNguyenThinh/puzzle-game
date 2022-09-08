@@ -1,0 +1,24 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+i{
+  font-size: 45px;
+  cursor: pointer;
+  color: red;
+}
+
+#btn-play-mobile > i, #btn-reset-mobile > i {
+  font-size: 30px !important;
+}
+
+.record{
+  border: 1px solid #ecf0f1;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#board{
+  border: 1px solid #ecf0f1;
+  border-radius: 10px;
+}
