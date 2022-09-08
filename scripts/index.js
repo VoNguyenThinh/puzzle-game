@@ -522,17 +522,18 @@ btnPlay.addEventListener("click", () => {
 });
 
 btnReset.addEventListener("click", () => {
-  btnPlay.disabled = false;
-  board.gameOver = true;
-  board.grid = board.generateBoard();
-  board.drawBoard();
+  // btnPlay.disabled = false;
+  // board.gameOver = true;
+  // board.grid = board.generateBoard();
+  // board.drawBoard();
 
-  themeSong.pause();
-  themeSong.currentTime = 0;
+  // themeSong.pause();
+  // themeSong.currentTime = 0;
 
-  board.score = 0;
-  let classScore = document.getElementsByClassName("score");
-  for (let i = 0; i <= classScore.length; i++) {
-    classScore[i].innerHTML = 0;
-  }
+  // board.score = 0;
+  // let classScore = document.getElementsByClassName("score");
+  // for (let i = 0; i <= classScore.length; i++) {
+  //   classScore[i].innerHTML = 0;
+  // }
+  document.location.reload()
 });
